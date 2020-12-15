@@ -1,0 +1,33 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  urlencode.cpp
+  twitcurl.cpp
+  SHA1.cpp
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(168,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(246,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(247,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(251,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(252,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(257,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(258,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(262,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(263,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\SHA1.cpp(266,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  oauthlib.cpp
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\oauthlib.cpp(260,22): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'time_t'
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\oauthlib.cpp(260,22): message : consider using '%lld' in the format string
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\oauthlib.cpp(260,22): message : consider using '%I64d' in the format string
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\oauthlib.cpp(259,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\oauthlib.cpp(260,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  HMAC_SHA1.cpp
+  base64.cpp
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\base64.cpp(96,61): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\base64.cpp(113,59): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1469,5): warning MSB8012: TargetPath(C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\.\Debug\twitcurl.lib) does not match the Library's OutputFile property value (C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\twitterClient\lib\twitcurl.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+libcurl.lib(GDI32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl.lib(USER32.dll); second definition ignored
+libcurl.lib(SSLEAY32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl.lib(USER32.dll); second definition ignored
+libcurl.lib(LIBEAY32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl.lib(USER32.dll); second definition ignored
+libcurl.lib(ADVAPI32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl.lib(USER32.dll); second definition ignored
+libcurl.lib(WLDAP32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl.lib(USER32.dll); second definition ignored
+libcurl.lib(WS2_32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl.lib(USER32.dll); second definition ignored
+  twitcurl.vcxproj -> C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\.\Debug\twitcurl.lib

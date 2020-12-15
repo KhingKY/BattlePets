@@ -1,0 +1,15 @@
+﻿  Battledex.cpp
+  PetTree.cpp
+  PetVisitor.cpp
+  main.cpp
+  Generating Code...
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(122): warning C4715: 'Battledex::getFirePet': not all control paths return a value
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(108): warning C4715: 'Battledex::getWaterPet': not all control paths return a value
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(134): warning C4715: 'Battledex::getGrassPet': not all control paths return a value
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(146): warning C4715: 'Battledex::PreviousWaterPet': not all control paths return a value
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(158): warning C4715: 'Battledex::NextWaterPet': not all control paths return a value
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(170): warning C4715: 'Battledex::PreviousFirePet': not all control paths return a value
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(182): warning C4715: 'Battledex::NextFirePet': not all control paths return a value
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(193): warning C4715: 'Battledex::PreviousGrassPet': not all control paths return a value
+C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\BattlePets\Battledex.cpp(205): warning C4715: 'Battledex::NextGrassPet': not all control paths return a value
+  BattlePets.vcxproj -> C:\Users\KHING\source\repos\ProgrammingProject2\BattlePets\Debug\BattlePets.exe

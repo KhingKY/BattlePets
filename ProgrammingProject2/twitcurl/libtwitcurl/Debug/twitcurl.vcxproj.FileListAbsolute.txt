@@ -1,0 +1,2 @@
+C:\Users\KHING\Desktop\twitcurl-master\libtwitcurl\Debug\twitcurl.pdb
+C:\Users\KHING\source\repos\ProgrammingProject2\twitcurl\libtwitcurl\Debug\twitcurl.pdb
